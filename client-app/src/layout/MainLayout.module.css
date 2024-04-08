@@ -1,0 +1,27 @@
+nav {
+    box-sizing: border-box;
+    display: flex;
+    gap: 2em;
+    height: 50px;
+    background: rgb(2, 104, 2);
+    padding: 1em;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+}
+a.active {
+    color: rgb(197, 197, 43);
+    display: inline-block;
+    transform: scale(1.1);
+    font-weight: bold;
+}
+a:hover {
+    color: rgb(99, 199, 99);
+    display: inline-block;
+    transition: transform 0.5s;
+    transform: scale(1.1);
+    text-decoration: overline;
+}

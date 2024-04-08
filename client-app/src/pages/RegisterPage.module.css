@@ -1,0 +1,17 @@
+.contain {
+    margin: 3em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contain form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 1em;
+}
+.contain form div {
+    display: flex;
+    flex-direction: column;
+}
