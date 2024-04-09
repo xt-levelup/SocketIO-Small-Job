@@ -1,0 +1,8 @@
+{
+    "env":{
+        "MONGO_USER":"xitrumvndn",
+        "MONGO_PASSWORD":"2991981DBok",
+        "MONGO_DEFAULT_DATABASE":"shop"
+        
+    }
+}

@@ -5,7 +5,9 @@
     "main": "app.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "nodemon app.js"
+        "start": "set MONGO_USER=xitrumvndn && set MONGO_PASSWORD=2991981DBok && node app.js",
+        "start-server": "node app.js",
+        "start:dev": "nodemon app.js"
     },
     "keywords": [],
     "author": "",
@@ -16,16 +18,20 @@
     "dependencies": {
         "bcryptjs": "^2.4.3",
         "body-parser": "^1.20.2",
+        "compression": "^1.7.4",
         "connect-flash": "^0.1.1",
         "connect-mongodb-session": "^5.0.0",
         "cors": "^2.8.5",
         "csurf": "^1.11.0",
+        "dotenv": "^16.4.5",
         "ejs": "^3.1.9",
         "express": "^4.18.2",
         "express-session": "^1.18.0",
         "express-validator": "^7.0.1",
+        "helmet": "^7.1.0",
         "mongodb": "^6.3.0",
         "mongoose": "^8.0.3",
+        "morgan": "^1.10.0",
         "mysql2": "^3.6.5",
         "nodemailer": "^6.9.9",
         "nodemailer-sendgrid-transport": "^0.2.0",
